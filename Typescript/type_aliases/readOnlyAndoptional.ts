@@ -19,3 +19,14 @@ let myUser:user={
 myUser.name="Tanvi"
 //cannot redefine value to because it is in readmode only
 // myUser._id="11"
+
+type cardNumber={
+    cardnumber:string
+}
+
+type cardDate={
+    cardDate:string
+}
+type cardDetails=cardNumber & cardDate &{
+    cvv:number
+}
