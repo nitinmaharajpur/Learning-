@@ -9,11 +9,11 @@ client
 
 
     ;
- 
 
-    const databases=new Databases(client)
-    const users=new Users(client)
-    const avatars=new Avatars(client);
-    const storage= new Storage(client);
-    
-    export {client,databases,avatars,storage,users}
+
+const databases = new Databases(client)
+const users = new Users(client)
+const avatars = new Avatars(client);
+const storage = new Storage(client);
+
+export { client, databases, avatars, storage, users }
